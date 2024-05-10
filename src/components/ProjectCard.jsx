@@ -13,7 +13,7 @@ function ProjectCard() {
                 <h3 className='font-bold py-3'>Project 1</h3>
                 <p className='text-gray-400'>The MERN stack e-commerce website seamlessly integrates MongoDB, Express.js, React, and Node.js to deliver a dynamic and efficient online shopping experience.</p>
                 <div className="group-hover:opacity-50 transition duration-300 ease-in-out flex justify-between">
-                    <a href="#" className='flex'>
+                    <a href="https://frontend-safolloacademy.onrender.com" className='flex'>
                     <svg
                     aria-hidden="true"
                     focusable="false"
@@ -35,7 +35,7 @@ function ProjectCard() {
                             View Project
                         </p>
                     </a>
-                    <a href="https://github.com/Tarak-Chakraborty/E-commerce.git" className='flex'>
+                    <a href="https://github.com/Tarak-Chakraborty/frontend-safolloAcademy.git" className='flex'>
                     <svg
                     aria-hidden="true"
                     focusable="false"
