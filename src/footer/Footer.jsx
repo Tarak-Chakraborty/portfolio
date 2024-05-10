@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 
 function Footer() {
   return (
@@ -6,30 +8,24 @@ function Footer() {
       <div className='container mx-auto flex flex-col md:flex-row items-center justify-between'>
         <ul className='flex items-center space-x-20 px-24'>
           <li>
-            <a href='/' className='text-gray-500 hover:text-teal-600 transition duration-300 text-sm font-semibold'>
+            <Link to='/' className='text-gray-500 hover:text-teal-600 transition duration-300 text-sm font-semibold'>
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href='/about' className='text-gray-500 hover:text-teal-600 transition duration-300 text-sm font-semibold'>
+            <Link to='/about' className='text-gray-500 hover:text-teal-600 transition duration-300 text-sm font-semibold'>
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href='/projects'
-              className='text-gray-500 hover:text-teal-600 transition duration-300 text-sm font-semibold'
-            >
+            <Link to='/projects' className='text-gray-500 hover:text-teal-600 transition duration-300 text-sm font-semibold'>
               Projects
-            </a>
+            </Link>
           </li>
           <li>
-            <a
-              href='/contact'
-              className='text-gray-500 hover:text-teal-600 transition duration-300 text-sm font-semibold'
-            >
+            <Link to='/contact' className='text-gray-500 hover:text-teal-600 transition duration-300 text-sm font-semibold'>
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
         <div className='mt-4 md:mt-0 px-24'>
